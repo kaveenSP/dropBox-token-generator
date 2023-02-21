@@ -48,7 +48,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	token, err := dbx.TokenFromOauth1(&auth.TokenFromOAuth1Arg{Oauth1Token: config.Token, Oauth1TokenSecret: "wf0h1d9iz2npwn3"})
+	token, err := dbx.TokenFromOauth1(&auth.TokenFromOAuth1Arg{Oauth1Token: config.Token, Oauth1TokenSecret: ""})
 	if err != nil {
 		log.Fatal(err)
 	}
